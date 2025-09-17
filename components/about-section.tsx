@@ -21,14 +21,10 @@ export function AboutSection() {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-slate-900">My Journey</h3>
             <p className="text-lg text-slate-600 leading-relaxed">
-              I'm a motivated undergraduate student pursuing Electronic and Telecommunication Engineering at the
-              University of Rwanda. My passion lies in bridging the gap between theoretical knowledge and practical
-              applications, especially in software development and emerging technologies.
+             I am a motivated undergraduate student pursuing Electronic and Telecommunication Engineering at the University of Rwanda. My passion lies in bridging the gap between theoretical knowledge and practical applications, especially in embedded systems, software development, and emerging technologies.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Currently enhancing my skills as a Full Stack Developer Trainee at K-Lab, where I'm building dynamic web
-              applications and contributing to innovative projects. I believe in continuous learning and am always eager
-              to take on new challenges.
+              I previously enhanced my skills as a Full Stack Developer Trainee at K-Lab, where I gained hands-on experience building dynamic web applications and contributing to innovative projects. I believe in continuous learning and remain eager to take on new challenges that help me grow both technically and professionally.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -155,6 +151,11 @@ export function AboutSection() {
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
                 <span>Part-time Roles</span>
+               
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+               <span>job</span>
               </div>
             </CardContent>
           </Card>

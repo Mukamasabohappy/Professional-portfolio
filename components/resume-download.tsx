@@ -8,19 +8,21 @@ export function ResumeDownload() {
   const handleDownload = () => {
     // Create resume content
     const resumeContent = `MUKAMASABO HAPPY
+MUKAMASABO HAPPY
 Phone: +250 787 925 483
 Email: mukamasaboh@gmail.com
 Location: Nyarugenge–Gitega, Kigali, Rwanda
 
 PROFESSIONAL SUMMARY
-Motivated and detail-oriented undergraduate student pursuing a Bachelor's degree in Electronic and Telecommunication Engineering. Possess a strong foundation in programming (C++, Python, React, Node.js) and proficient in Microsoft Office tools. Passionate about using technology to solve real-world problems and eager to gain hands-on experience through internships, training programs, or part-time opportunities in the tech and engineering fields.
+Motivated and detail-oriented undergraduate student pursuing a Bachelor's degree in Electronic and Telecommunication Engineering. Passionate about creating innovative technological solutions in both **embedded systems** and **full-stack web development**. Strong foundation in programming (C++, Python, React, Node.js) with hands-on experience in practical projects. Eager to gain industry experience through internships, training programs, or part-time opportunities in technology and engineering fields.
 
 KEY SKILLS
-• Programming Languages: C++, Python, React, Node.js
-• Web Technologies: HTML, CSS, JavaScript
-• Software Tools: Microsoft Word, PowerPoint
+• Programming Languages: C++, Python, JavaScript, TypeScript
+• Web Development: React, Node.js, HTML, CSS, Tailwind CSS
+• Embedded Systems: Arduino, IoT, Microcontrollers
+• Software Tools: Microsoft Office (Word, PowerPoint, Excel), Git
 • Languages: Fluent in Kinyarwanda and English
-• Soft Skills: Teamwork, Communication, Time Management
+• Soft Skills: Teamwork, Communication, Problem Solving, Time Management
 
 EDUCATION
 Bachelor of Science in Electronic and Telecommunication Engineering
@@ -37,13 +39,17 @@ EXPERIENCE
 Full Stack Developer Trainee
 K-Lab, Kigali, Rwanda
 December 18, 2024 – March 28, 2025
-• Developed dynamic and responsive web applications using React
-• Applied JavaScript to enhance code functionality and readability
-• Used external CSS to ensure clean and consistent UI styling
-• Built and deployed personal projects, including a portfolio platform for various clients
+• Developed dynamic and responsive web applications using React and Node.js
+• Designed and implemented embedded systems projects, including **Smart Door** and **Water Pump Automation**
+• Applied JavaScript and TypeScript to enhance code functionality and maintainability
+• Built and deployed personal and client projects, including **VeterTech Online Shop** and **Task Management Web App**
+• Ensured clean UI/UX using CSS and Tailwind CSS
 
 ADDITIONAL INFORMATION
 • Driving License: Category B
+• Open to internships, volunteering, and technology-related opportunities
+• Strong interest in bridging theoretical knowledge with practical technological solutions
+
 • Open to internships, volunteering, and tech-related opportunities`
 
     // Create and download file

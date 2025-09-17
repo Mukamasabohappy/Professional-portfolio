@@ -20,8 +20,7 @@ export function Footer() {
               Mukamasabo Happy
             </h3>
             <p className="text-slate-300 mb-4 text-lg leading-relaxed">
-              Electronic & Telecommunication Engineering Student and Full Stack Developer Trainee passionate about
-              creating innovative technological solutions.
+              Electronic & Telecommunication Engineering student and Full Stack Developer Trainee, passionate about creating innovative embedded systems and web-based technological solutions.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="sm" className="text-slate-300 hover:text-white hover:bg-slate-800">
@@ -39,7 +38,7 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <div className="space-y-2">
-              {["About", "Experience", "Skills", "Education", "Contact"].map((link) => (
+              {["About", "project", "Skills", "Education", "Contact"].map((link) => (
                 <button
                   key={link}
                   onClick={() => scrollToSection(link.toLowerCase())}
