@@ -23,38 +23,7 @@ export function HeroSection() {
     }
   };
 
-  const handleResumeDownload = () => {
-    const resumeContent = `MUKAMASABO HAPPY
-Phone: +250 787 925 483
-Email: mukamasaboh@gmail.com
-Location: Nyarugenge–Gitega, Kigali, Rwanda
-
-PROFESSIONAL SUMMARY
-Motivated and detail-oriented undergraduate student pursuing a Bachelor's degree in Electronic and Telecommunication Engineering.
-
-KEY SKILLS
-• Programming Languages: C++, Python, React, Node.js
-• Web Technologies: HTML, CSS, JavaScript
-• Software Tools: Microsoft Word, PowerPoint
-
-EDUCATION
-Bachelor of Science in Electronic and Telecommunication Engineering
-University of Rwanda – Expected Graduation: 2027
-
-EXPERIENCE
-Full Stack Developer Trainee - K-Lab, Kigali, Rwanda
-December 18, 2024 – March 28, 2025`;
-
-    const blob = new Blob([resumeContent], { type: "text/plain" });
-    const url = window.URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "Mukamasabo_Happy_Resume.txt";
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    window.URL.revokeObjectURL(url);
-  };
+ 
 
   return (
     <section
@@ -100,15 +69,7 @@ December 18, 2024 – March 28, 2025`;
                 <Mail className="w-5 h-5 mr-2" />
                 Let's Connect
               </Button>
-              <Button
-                onClick={handleResumeDownload}
-                variant="outline"
-                size="lg"
-                className="bg-white/80 text-slate-700 border-slate-300 hover:bg-white shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                <Download className="w-5 h-5 mr-2" />
-                Download Resume
-              </Button>
+             
               <Button
                 onClick={() => scrollToSection("Project")}
                 variant="ghost"
@@ -118,21 +79,6 @@ December 18, 2024 – March 28, 2025`;
                 View My Work
                 <ExternalLink className="w-4 h-4 ml-2" />
               </Button>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-8">
-              <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-lg">
-                <div className="text-2xl font-bold text-blue-600">2027</div>
-                <div className="text-sm text-slate-600">Expected Graduation</div>
-              </div>
-              <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-lg">
-                <div className="text-2xl font-bold text-purple-600">6+</div>
-                <div className="text-sm text-slate-600">Programming Languages</div>
-              </div>
-              <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-lg">
-                <div className="text-2xl font-bold text-green-600">100%</div>
-                <div className="text-sm text-slate-600">Commitment</div>
-              </div>
             </div>
           </div>
 
