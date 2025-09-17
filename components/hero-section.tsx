@@ -71,10 +71,7 @@ December 18, 2024 – March 28, 2025`;
               </div>
 
               <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 leading-tight">
-                Hello, I'm{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
-                  Mukamasabo Happy
-                </span>
+                Hello, I'm Mukamasabo Happy
               </h1>
 
               <p className="text-xl lg:text-2xl text-slate-600 leading-relaxed">
@@ -86,14 +83,11 @@ December 18, 2024 – March 28, 2025`;
                 <span className="font-semibold text-purple-600">
                   Full Stack Developer
                 </span>{" "}
-                trainee.
+                and embedded system developer
               </p>
 
               <div className="flex items-center space-x-4 text-slate-600">
-                <div className="flex items-center space-x-2">
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="font-medium">Currently training at K-Lab</span>
-                </div>
+        
               </div>
             </div>
 
@@ -116,7 +110,7 @@ December 18, 2024 – March 28, 2025`;
                 Download Resume
               </Button>
               <Button
-                onClick={() => scrollToSection("experience")}
+                onClick={() => scrollToSection("Project")}
                 variant="ghost"
                 size="lg"
                 className="text-slate-600 hover:text-slate-900"

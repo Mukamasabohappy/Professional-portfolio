@@ -74,7 +74,7 @@ December 18, 2024 – March 28, 2025`
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            {["home", "about", "experience", "skills", "education", "contact"].map((section) => (
+            {["home", "about", "Project", "skills", "education", "contact"].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
@@ -109,7 +109,7 @@ December 18, 2024 – March 28, 2025`
         {isMenuOpen && (
           <div className="md:hidden bg-white/95 backdrop-blur-lg rounded-lg shadow-lg mt-2 p-4">
             <div className="flex flex-col space-y-4">
-              {["home", "about", "experience", "skills", "education", "contact"].map((section) => (
+              {["home", "about", "Project", "skills", "education", "contact"].map((section) => (
                 <button
                   key={section}
                   onClick={() => scrollToSection(section)}
